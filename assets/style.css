@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 /*Fonte*/
 
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+/*Geral*/
 * {     /*Configurações gerais*/
     margin: 0;
     padding: 0;
     height: 100%;
 }
-
 body {      /*Configurações gerais do body*/
     background: #3D7B80;
     background-repeat: no-repeat;
@@ -31,15 +32,14 @@ header .logoGrupo {     /*Configurações da div da logo*/
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
     transition: 0.3s;
 }
-
 header .logoGrupo h1 {      /*Configurações do h1 da div logo*/
     font-family: 'Pixelify Sans';
+    font-size: 3rem;
     height: auto;
     width: auto;
     transition: 0.3s;
 }
-
-header .opcoes {
+header .opcoes {        /*Configurações do icone de opcoes*/
     width: 5vw;
     height: 5vh;
     display: flex;
@@ -49,5 +49,5 @@ header .opcoes {
     background-color: #77B1A9;
     border-radius:  30px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
-    font-family: 'Pixelify Sans';
 }
+
