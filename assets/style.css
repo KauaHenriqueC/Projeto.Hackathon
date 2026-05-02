@@ -15,6 +15,7 @@ body {      /*Configurações gerais do body*/
 }
 
 /*Header*/
+
 header {
     display: flex;
     justify-content: space-between;
@@ -45,6 +46,7 @@ header .opcoes {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s;
     background-color: red;
     border-radius:  30px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
