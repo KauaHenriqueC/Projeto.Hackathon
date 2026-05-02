@@ -8,8 +8,7 @@
 }
 
 body {      /*Configurações gerais do body*/
-    background: #ff0000;
-    background: linear-gradient(180deg, rgba(255, 0, 0, 1) 0%, rgba(232, 5, 5, 1) 20%, rgba(0, 0, 0, 1) 100%);
+    background: #3D7B80;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -28,7 +27,7 @@ header .logoGrupo {     /*Configurações da div da logo*/
     align-items: center;
     width: 20vw;
     height:  20vh;
-    background-color: red;
+    background-color: #77B1A9;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
     transition: 0.3s;
 }
@@ -47,7 +46,7 @@ header .opcoes {
     justify-content: center;
     align-items: center;
     transition: 0.3s;
-    background-color: red;
+    background-color: #77B1A9;
     border-radius:  30px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
     font-family: 'Pixelify Sans';
