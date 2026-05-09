@@ -35,7 +35,7 @@ header .logoGrupo {     /*Configurações da div da logo*/
 }
 header .logoGrupo h1 {      /*Configurações do h1 da div logo*/
     font-family: 'Pixelify Sans';
-    font-size: 3rem;
+    font-size: 250%;
     height: auto;
     width: auto;
     transition: 0.3s;
