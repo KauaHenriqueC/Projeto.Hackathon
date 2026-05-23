@@ -101,3 +101,25 @@ header .opcoes {        /*Configurações do icone de opcoes*/
     width: auto;
 }
 
+
+/*Corpo do texto*/
+
+.corpoTexto {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    display: grid;
+    transition: 0.3s;
+    justify-content: center;
+    background-color: #77B1A9;
+    border-radius: 15px;
+    margin: 3vw;
+    font-family: "Google Sans", sans-serif;
+}
+
+.corpoTexto #tituloTexto {
+    margin: 0.5em auto auto 0.5em;
+}
+
+.corpoTexto #text {
+    margin: 0 auto auto 0.5em;
+}
+
