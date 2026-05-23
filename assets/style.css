@@ -98,5 +98,6 @@ header .opcoes {        /*Configurações do icone de opcoes*/
 }
 .abas p {
     height: auto;
+    width: auto;
 }
 
