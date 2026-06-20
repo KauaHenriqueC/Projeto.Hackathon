@@ -95,10 +95,22 @@ header .opcoes {        /*Configurações do icone de opcoes*/
     width: 18vw;
     height: 6vh;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
 .abas p {
     height: auto;
     width: auto;
+}
+
+/*Card*/
+.corpoTexto .card1 {
+    display: none;
+}
+.corpoTexto .card2 {
+    display: none;
+}
+.corpoTexto .card3 {
+    display: none;
 }
 
 
