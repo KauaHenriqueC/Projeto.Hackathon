@@ -40,6 +40,7 @@ header .logoGrupo h1 {      /*Configurações do h1 da div logo*/
     width: auto;
     transition: 0.3s;
 }
+
 header .opcoes {        /*Configurações do icone de opcoes*/
     width: 5vw;
     height: 5vh;
@@ -50,6 +51,11 @@ header .opcoes {        /*Configurações do icone de opcoes*/
     background-color: #77B1A9;
     border-radius:  30px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+header .opcoes:hover {
+    width: 6vw;
+    height: 6vh;
 }
 
 /*Titulo*/
@@ -97,9 +103,19 @@ header .opcoes {        /*Configurações do icone de opcoes*/
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
+
+.abas div:hover {
+    width: 19vw;
+    height: 7vh;
+}
+
 .abas p {
     height: auto;
     width: auto;
+}
+
+.abas p {
+    font-size: 0.9rem;
 }
 
 /*Card*/
