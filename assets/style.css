@@ -119,7 +119,7 @@ header .opcoes:hover {
 }
 
 /*Card*/
-.corpoTexto .card1 {
+.corpoTexto #card1 {
     display: none;
 }
 .corpoTexto .card2 {
@@ -136,7 +136,7 @@ header .opcoes:hover {
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
     display: grid;
     transition: 0.3s;
-    justify-content: center;
+    justify-items: center;
     background-color: #77B1A9;
     border-radius: 15px;
     margin: 3vw;
@@ -144,10 +144,10 @@ header .opcoes:hover {
 }
 
 .corpoTexto #tituloTexto {
-    margin: 0.5em auto auto 0.5em;
+    margin: 0.5em auto;
+    text-align: center;
 }
-
-.corpoTexto #text {
-    margin: 0 auto auto 0.5em;
+.corpoTexto p {
+     margin:  auto 3em;
 }
 
